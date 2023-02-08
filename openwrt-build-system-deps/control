@@ -4,10 +4,11 @@
 # Source: <source package name; defaults to package name>
 Section: misc
 Priority: optional
-Homepage: https://openwrt.org/docs/guide-developer/toolchain/install-buildsystem
+Homepage: https://github.com/eliminmax/debian-dependency-metapackages
 Standards-Version: 3.9.2
 
 Package: openwrt-build-system-deps
+# Made to build OpenWrt 22.03
 Version: 22.03
 Maintainer: Eli Array Minkoff <eli@planetminkoff.com>
 # Pre-Depends: <comma-separated list of packages>
