@@ -1,0 +1,31 @@
+# vi: ft=debcontrol
+### Commented entries have reasonable defaults.
+### Uncomment to edit them.
+# Source: <source package name; defaults to package name>
+Section: misc
+Priority: optional
+Homepage: https://github.com/eliminmax/debian-dependency-metapackages
+Standards-Version: 3.9.2
+
+Package: ad-join-deps
+# Made to join a Windows Server 2019 domain controller
+Version: 2019
+Maintainer: Eli Array Minkoff <eli@planetminkoff.com>
+# Pre-Depends: <comma-separated list of packages>
+Depends: realmd
+Recommends: sssd-tools, sssd, libnss-sss, libpam-sss, adcli, samba-common-bin, oddjob-mkhomedir, oddjob, packagekit
+# Suggests: <comma-separated list of packages>
+# Provides: <comma-separated list of packages>
+# Replaces: <comma-separated list of packages>
+# Architecture: all
+# Multi-Arch: <one of: foreign|same|allowed>
+# Copyright: <copyright file; defaults to GPL2>
+# Changelog: <changelog file; defaults to a generic changelog>
+# Readme: <README.Debian file; defaults to a generic one>
+# Extra-Files: <comma-separated list of additional files for the doc directory>
+# Links: <pair of space-separated paths; First is path symlink points at, second is filename of link>
+# Files: <pair of space-separated paths; First is file to include, second is destination>
+#  <more pairs, if there's more than one file to include. Notice the starting space>
+Description: Metapackage for joining Microsoft Active Directory domain
+ This metapackage depends on the packages needed to join Microsoft Active
+ Directory domains
