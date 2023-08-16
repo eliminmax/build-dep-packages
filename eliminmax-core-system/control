@@ -8,10 +8,10 @@ Homepage: https://github.com/eliminmax/debian-dependency-metapackages
 Standards-Version: 3.9.2
 
 Package: eliminmax-core-system
-Version: 0.03
+Version: 0.04
 Maintainer: Eli Array Minkoff <eli@planetminkoff.com>
 # Pre-Depends: <comma-separated list of packages>
-Depends: kitty-terminfo, wget, curl, busybox-static, bash-completion, silversearcher-ag, fd-find, xxd, vim-nox | neovim | vim-gtk3, tree, tmux
+Depends: kitty-terminfo, wget, curl, busybox-static, bash-completion, silversearcher-ag, fd-find, xxd, vim-nox | neovim | vim-gtk3, tree, tmux, needrestart
 Recommends: neofetch, bat, extrepo, aptitude, equivs, command-not-found, gnupg, hexyl, shellcheck, moreutils, renameutils, bubblewrap, rsync, rsyslog, rsyslog-openssl | rsyslog-gnutls, byobu, pv, progress, sudo | sudo-ldap
 Suggests: local-apt-repository, build-essential, pipx, asciinema, aha
 # Suggests: <comma-separated list of packages>
