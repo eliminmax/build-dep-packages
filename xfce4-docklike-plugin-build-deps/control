@@ -1,0 +1,29 @@
+### Commented entries have reasonable defaults.
+### Uncomment to edit them.
+# Source: <source package name; defaults to package name>
+Section: xfce
+Priority: optional
+Homepage: https://github.com/eliminmax/debian-dependency-metapackages
+Standards-Version: 3.9.2
+
+Package: xfce-docklike-plugin-build-deps
+Version: 0.4.2
+Maintainer: Eli Array Minkoff <eli@planetminkoff.com>
+Depends: debhelper-compat, intltool, libtool, libx11-dev, xfce4-dev-tools, libxfce4ui-2-dev, libxfce4panel-2.0-dev, xfce4-dev-tools, libxfce4util-dev, libgtk-3-dev, libcairo2-dev, libwnck-3-dev, libglib2.0-dev, libexo-2-dev
+# Recommends: <comma-separated list of packages>
+# Suggests: <comma-separated list of packages>
+# Provides: <comma-separated list of packages>
+# Replaces: <comma-separated list of packages>
+# Architecture: all
+# Multi-Arch: <one of: foreign|same|allowed>
+# Copyright: <copyright file; defaults to GPL2>
+# Changelog: <changelog file; defaults to a generic changelog>
+# Readme: <README.Debian file; defaults to a generic one>
+# Extra-Files: <comma-separated list of additional files for the doc directory>
+# Links: <pair of space-separated paths; First is path symlink points at, second is filename of link>
+# Files: <pair of space-separated paths; First is file to include, second is destination>
+#  <more pairs, if there's more than one file to include. Notice the starting space>
+Description: <short description; defaults to some wise words> 
+ long description and info
+ .
+ second paragraph
