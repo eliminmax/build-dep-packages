@@ -1,0 +1,12 @@
+Section: misc
+Priority: optional
+Standards-Version: 3.9.2
+
+Package: liquorix-is-linux
+Version: 1.0
+Maintainer: Eli Array Minkoff <eli@planetminkoff.com>
+Depends: linux-image-liquorix-amd64
+Provides: linux-image-amd64
+Architecture: amd64
+Description: Allows liquorix to fulfill dependency on linux-image-amd64
+ This is a hack. Don't complain if it breaks things.
